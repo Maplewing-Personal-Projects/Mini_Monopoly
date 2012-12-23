@@ -2,8 +2,7 @@
 #define KNIGHT_CMAPUNIT_H
 #include <string>
 
-class CMapUnit
-{
+class CMapUnit{
   public:
     CMapUnit( int id, std::string name )
       :id_(id), name_(name){
