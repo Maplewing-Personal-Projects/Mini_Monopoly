@@ -4,18 +4,19 @@
 1356236657 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cmapunit.cpp
 	"CMapUnit.h"
 
-1356236823 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cmapunit.h
+1356237610 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cmapunit.h
 	<string>
 
 1356236916 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cpriceunit.cpp
 	"CPriceUnit.h"
 
-1356237003 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cpriceunit.h
+1356237617 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cpriceunit.h
 	"CMapUnit.h"
 	<string>
 
 1356236818 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cupgradableunit.cpp
 	"CUpgradableUnit.h"
 
-1356236828 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cupgradableunit.h
+1356237124 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cupgradableunit.h
+	"CPriceUnit.h"
 
