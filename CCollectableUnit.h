@@ -8,6 +8,8 @@ class CCollectableUnit : public CSingleFineUnit{
     CCollectableUnit(int id, std::string name, int price, int owner_id = NO_OWNER)
       :CSingleFineUnit(id, name, price, owner_id){
     }
+
+    virtual void action(){}
 };
 
 #endif // KNIGHT_CCOLLECTABLEUNIT_H

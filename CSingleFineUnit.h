@@ -8,6 +8,8 @@ class CSingleFineUnit : public CPriceUnit{
     CSingleFineUnit(int id, std::string name, int price, int fine, int owner_id = NO_OWNER)
       :CPriceUnit(id, name, price, owner_id), fine_(fine){
     }
+    virtual ~CSingleFineUnit(){}
+
   protected:
     int fine_;
 };

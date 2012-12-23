@@ -8,6 +8,7 @@ class CPriceUnit : public CMapUnit{
     CPriceUnit(int id, std::string name, int price, int owner_id = NO_OWNER)
       :CMapUnit(id, name), price_(price), owner_id_(owner_id){
     }
+    virtual ~CPriceUnit(){}
 
   static const int NO_OWNER = -1;
   protected:

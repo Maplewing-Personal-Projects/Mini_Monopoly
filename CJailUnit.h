@@ -8,6 +8,8 @@ class CJailUnit : public CMapUnit{
     CJailUnit(int id, std::string name)
       :CMapUnit(id, name){
     }
+
+    virtual void action(){}
 };
 
 #endif // KNIGHT_CJAILUNIT_H

@@ -1,44 +1,66 @@
 # depslib dependency file v1.0
-1356235613 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\main.cpp
+1356240563 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\main.cpp
+	<iostream>
+	<fstream>
+	"CWorldMap.h"
 
 1356236657 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cmapunit.cpp
 	"CMapUnit.h"
 
-1356238105 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cmapunit.h
+1356239574 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cmapunit.h
 	<string>
 
 1356236916 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cpriceunit.cpp
 	"CPriceUnit.h"
 
-1356238344 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cpriceunit.h
+1356239605 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cpriceunit.h
 	"CMapUnit.h"
 	<string>
 
 1356237640 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cupgradableunit.cpp
 	"CUpgradableUnit.h"
 
-1356238441 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cupgradableunit.h
+1356240118 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cupgradableunit.h
 	<string>
 	"CPriceUnit.h"
 
 1356237812 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\csinglefineunit.cpp
 	"CSingleFineUnit.h"
 
-1356238410 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\csinglefineunit.h
+1356239621 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\csinglefineunit.h
 	<string>
 	"CPriceUnit.h"
 
 1356237982 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cjailunit.cpp
 	"CJailUnit.h"
 
-1356238394 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cjailunit.h
+1356240134 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cjailunit.h
 	<iostream>
 	"CMapUnit.h"
 
 1356238512 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\ccollectableunit.cpp
 	"CCollectableUnit.h"
 
-1356238507 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\ccollectableunit.h
+1356240139 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\ccollectableunit.h
 	<string>
 	"CSingleFineUnit.h"
+
+1356238642 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\crandomcostunit.cpp
+	"CRandomCostUnit.h"
+
+1356240130 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\crandomcostunit.h
+	<string>
+	"CSingleFineUnit.h"
+
+1356240520 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cworldmap.cpp
+	"CWorldMap.h"
+
+1356240362 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cworldmap.h
+	<iostream>
+	<string>
+	<vector>
+	"CUpgradableUnit.h"
+	"CCollectableUnit.h"
+	"CRandomCostUnit.h"
+	"CJailUnit.h"
 

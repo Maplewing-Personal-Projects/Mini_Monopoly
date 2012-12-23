@@ -8,6 +8,8 @@ class CRandomCostUnit : public CSingleFineUnit{
     CRandomCostUnit(int id, std::string name, int price, int fine, int owner_id = NO_OWNER )
       :CSingleFineUnit(id, name, price, fine, owner_id){
     }
+
+    virtual void action(){}
 };
 
 #endif // KNIGHT_CRANDOMCOSTUNIT_H
