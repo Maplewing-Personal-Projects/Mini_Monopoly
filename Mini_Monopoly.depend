@@ -17,7 +17,21 @@
 1356237640 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cupgradableunit.cpp
 	"CUpgradableUnit.h"
 
-1356237637 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cupgradableunit.h
+1356238010 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cupgradableunit.h
 	<string>
 	"CPriceUnit.h"
+
+1356237812 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\csinglefineunit.cpp
+	"CSingleFineUnit.h"
+
+1356237842 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\csinglefineunit.h
+	<string>
+	"CPriceUnit.h"
+
+1356237982 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cjailunit.cpp
+	"CJailUnit.h"
+
+1356237994 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cjailunit.h
+	<iostream>
+	"CMapUnit.h"
 

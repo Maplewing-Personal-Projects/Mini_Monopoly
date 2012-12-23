@@ -12,7 +12,7 @@ class CUpgradableUnit : public CPriceUnit{
     }
 
     static const int MAXLEVEL = 5;
-  protected:
+  private:
     int upgrade_price_;
     int fine_[MAXLEVEL];
 };
