@@ -1,6 +1,6 @@
 #ifndef KNIGHT_CJAILUNIT_H
 #define KNIGHT_CJAILUNIT_H
-#include <iostream>
+#include <string>
 #include "CMapUnit.h"
 
 class CJailUnit : public CMapUnit{

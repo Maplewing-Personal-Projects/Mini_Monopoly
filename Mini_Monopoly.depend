@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1356240563 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\main.cpp
+1356242914 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\main.cpp
 	<iostream>
 	<fstream>
 	"CWorldMap.h"
@@ -7,7 +7,7 @@
 1356236657 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cmapunit.cpp
 	"CMapUnit.h"
 
-1356241753 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cmapunit.h
+1356242920 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cmapunit.h
 	<string>
 
 1356236916 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cpriceunit.cpp
@@ -20,7 +20,8 @@
 1356237640 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cupgradableunit.cpp
 	"CUpgradableUnit.h"
 
-1356241817 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cupgradableunit.h
+1356243105 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cupgradableunit.h
+	<iostream>
 	<string>
 	"CPriceUnit.h"
 
@@ -34,28 +35,31 @@
 1356237982 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cjailunit.cpp
 	"CJailUnit.h"
 
-1356241770 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cjailunit.h
+1356243092 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cjailunit.h
 	<iostream>
+	<string>
 	"CMapUnit.h"
 
 1356238512 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\ccollectableunit.cpp
 	"CCollectableUnit.h"
 
-1356241760 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\ccollectableunit.h
+1356243096 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\ccollectableunit.h
+	<iostream>
 	<string>
 	"CSingleFineUnit.h"
 
 1356238642 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\crandomcostunit.cpp
 	"CRandomCostUnit.h"
 
-1356241757 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\crandomcostunit.h
+1356243099 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\crandomcostunit.h
+	<iostream>
 	<string>
 	"CSingleFineUnit.h"
 
-1356242301 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cworldmap.cpp
+1356242827 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cworldmap.cpp
 	"CWorldMap.h"
 
-1356242454 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cworldmap.h
+1356242832 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cworldmap.h
 	<iostream>
 	<string>
 	<vector>
