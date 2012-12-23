@@ -9,6 +9,7 @@ class CRandomCostUnit : public CSingleFineUnit{
       :CSingleFineUnit(id, name, price, fine, owner_id){
     }
 
+    virtual UnitType type(){ return RANDOMCOST; }
     virtual void action(){}
 };
 

@@ -9,6 +9,7 @@ class CJailUnit : public CMapUnit{
       :CMapUnit(id, name){
     }
 
+    virtual UnitType type(){ return JAIL; }
     virtual void action(){}
 };
 

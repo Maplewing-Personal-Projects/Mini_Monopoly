@@ -11,6 +11,7 @@ class CUpgradableUnit : public CPriceUnit{
         fine_[i] = fine[i];
     }
 
+    virtual UnitType type(){ return UPGRADABLE; }
     virtual void action(){}
 
     static const int MAXLEVEL = 5;

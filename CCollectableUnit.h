@@ -9,6 +9,7 @@ class CCollectableUnit : public CSingleFineUnit{
       :CSingleFineUnit(id, name, price, owner_id){
     }
 
+    virtual UnitType type(){ return COLLECTABLE; }
     virtual void action(){}
 };
 
