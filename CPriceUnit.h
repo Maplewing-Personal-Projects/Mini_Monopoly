@@ -5,10 +5,13 @@
 
 class CPriceUnit : public CMapUnit{
   public:
-    CPriceUnit(int id, std::string name, int price)
-      :CMapUnit(id, name), price_(price){
+    CPriceUnit(int id, std::string name, int price, int owner_id = NO_OWNER)
+      :CMapUnit(id, name), price_(price), owner_id_(owner_id){
     }
+
+  static const int NO_OWNER = -1;
   protected:
+    int owner_id_;
     int price_;
 };
 

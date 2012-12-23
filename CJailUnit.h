@@ -5,7 +5,7 @@
 
 class CJailUnit : public CMapUnit{
   public:
-    CJailUnit( int id, std::string name )
+    CJailUnit(int id, std::string name)
       :CMapUnit(id, name){
     }
 };

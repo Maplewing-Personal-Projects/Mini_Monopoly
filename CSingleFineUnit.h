@@ -5,8 +5,8 @@
 
 class CSingleFineUnit : public CPriceUnit{
   public:
-    CSingleFineUnit( int id, std::string name, int price, int fine )
-      :CPriceUnit(id, name, price), fine_(fine){
+    CSingleFineUnit(int id, std::string name, int price, int fine, int owner_id = NO_OWNER)
+      :CPriceUnit(id, name, price, owner_id), fine_(fine){
     }
   protected:
     int fine_;

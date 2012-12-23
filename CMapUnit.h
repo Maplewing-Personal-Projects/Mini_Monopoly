@@ -7,6 +7,8 @@ class CMapUnit{
     CMapUnit( int id, std::string name )
       :id_(id), name_(name){
     }
+
+    virtual void action() = 0;
   protected:
     int id_;
     std::string name_;

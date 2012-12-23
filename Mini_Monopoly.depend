@@ -4,34 +4,41 @@
 1356236657 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cmapunit.cpp
 	"CMapUnit.h"
 
-1356237610 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cmapunit.h
+1356238105 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cmapunit.h
 	<string>
 
 1356236916 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cpriceunit.cpp
 	"CPriceUnit.h"
 
-1356237617 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cpriceunit.h
+1356238344 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cpriceunit.h
 	"CMapUnit.h"
 	<string>
 
 1356237640 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cupgradableunit.cpp
 	"CUpgradableUnit.h"
 
-1356238010 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cupgradableunit.h
+1356238441 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cupgradableunit.h
 	<string>
 	"CPriceUnit.h"
 
 1356237812 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\csinglefineunit.cpp
 	"CSingleFineUnit.h"
 
-1356237842 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\csinglefineunit.h
+1356238410 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\csinglefineunit.h
 	<string>
 	"CPriceUnit.h"
 
 1356237982 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cjailunit.cpp
 	"CJailUnit.h"
 
-1356237994 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cjailunit.h
+1356238394 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cjailunit.h
 	<iostream>
 	"CMapUnit.h"
+
+1356238512 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\ccollectableunit.cpp
+	"CCollectableUnit.h"
+
+1356238507 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\ccollectableunit.h
+	<string>
+	"CSingleFineUnit.h"
 
