@@ -56,7 +56,7 @@
 1356522042 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cworldmap.cpp
 	"CWorldMap.h"
 
-1356524040 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cworldmap.h
+1356530413 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cworldmap.h
 	<iostream>
 	<string>
 	<vector>
@@ -68,22 +68,23 @@
 1356243310 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cplayer.cpp
 	"CPlayer.h"
 
-1356243388 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cplayer.h
+1356530295 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cplayer.h
 	<string>
+	<vector>
 
-1356526788 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cworldplayer.cpp
+1356529881 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cworldplayer.cpp
 	<iostream>
 	<string>
 	"CWorldPlayer.h"
 
-1356526758 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cworldplayer.h
+1356530113 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cworldplayer.h
 	<vector>
 	"CPlayer.h"
 
-1356525412 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cgame.cpp
+1356530031 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cgame.cpp
 	"CGame.h"
 
-1356527486 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cgame.h
+1356529551 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cgame.h
 	"CWorldMap.h"
 	"CWorldPlayer.h"
 

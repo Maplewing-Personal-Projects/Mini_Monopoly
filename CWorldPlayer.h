@@ -6,7 +6,10 @@
 class CWorldPlayer{
   public:
     void add(const CPlayer& player){ players_.push_back(player); }
-    int totalPlayerNum(){ return players_.size(); }
+    int totalPlayerNum() const{ return players_.size(); }
+
+    const CPlayer& operator[]( int index ) const{ return players_[index]; }
+    CPlayer& operator[]( int index ){ return const_cast<CPlayer&>(static_cast<const CWorldPlayer&>(*this)[index]); }
 
     void promptInitialize();
     static const int MAX_PLAYER_NUM = 4;

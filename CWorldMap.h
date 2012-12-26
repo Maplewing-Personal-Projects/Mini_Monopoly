@@ -14,9 +14,11 @@ class CWorldMap
     explicit CWorldMap(std::istream& in);
     CWorldMap(const CWorldMap& map);
     ~CWorldMap();
-    CWorldMap& operator= (const CWorldMap& map);
-    void swap(CWorldMap& map);
 
+    CWorldMap& operator= (const CWorldMap& map);
+
+    void swap(CWorldMap& map);
+    int totalMapUnitNum() const{ return map_units_.size(); }
   private:
     std::vector<CMapUnit*> map_units_;
 };
