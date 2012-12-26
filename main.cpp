@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 #include <fstream>
 #include <string>
 #include "CGame.h"
@@ -13,6 +14,7 @@ int main(){
   world_player.promptInitialize();
 
   CGame game( world_map,  world_player);
+  game.run();
 
   return 0;
 }

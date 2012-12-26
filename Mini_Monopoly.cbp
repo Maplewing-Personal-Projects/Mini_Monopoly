@@ -33,6 +33,8 @@
 		</Compiler>
 		<Unit filename="CCollectableUnit.cpp" />
 		<Unit filename="CCollectableUnit.h" />
+		<Unit filename="CGame.cpp" />
+		<Unit filename="CGame.h" />
 		<Unit filename="CJailUnit.cpp" />
 		<Unit filename="CJailUnit.h" />
 		<Unit filename="CMapUnit.cpp" />

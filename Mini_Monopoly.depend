@@ -1,27 +1,35 @@
 # depslib dependency file v1.0
-1356527118 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\main.cpp
+1356536683 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\main.cpp
 	<iostream>
+	<iomanip>
 	<fstream>
 	<string>
 	"CGame.h"
 
-1356236657 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cmapunit.cpp
+1356537669 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cmapunit.cpp
+	<iostream>
+	<iomanip>
+	<string>
 	"CMapUnit.h"
 
-1356527470 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cmapunit.h
+1356536484 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cmapunit.h
 	<string>
 
-1356236916 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cpriceunit.cpp
+1356536563 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cpriceunit.cpp
+	<iostream>
+	<iomanip>
 	"CPriceUnit.h"
 
-1356241534 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cpriceunit.h
+1356536522 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cpriceunit.h
 	"CMapUnit.h"
 	<string>
 
-1356237640 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cupgradableunit.cpp
+1356537834 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cupgradableunit.cpp
+	<iostream>
+	<iomanip>
 	"CUpgradableUnit.h"
 
-1356521965 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cupgradableunit.h
+1356536533 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cupgradableunit.h
 	<string>
 	"CPriceUnit.h"
 
@@ -32,31 +40,34 @@
 	<string>
 	"CPriceUnit.h"
 
-1356237982 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cjailunit.cpp
+1356537374 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cjailunit.cpp
+	<iostream>
 	"CJailUnit.h"
 
-1356521912 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cjailunit.h
+1356536492 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cjailunit.h
 	<string>
 	"CMapUnit.h"
 
-1356238512 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\ccollectableunit.cpp
+1356538226 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\ccollectableunit.cpp
+	<iostream>
 	"CCollectableUnit.h"
 
-1356522496 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\ccollectableunit.h
+1356536540 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\ccollectableunit.h
 	<string>
 	"CSingleFineUnit.h"
 
-1356238642 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\crandomcostunit.cpp
+1356538277 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\crandomcostunit.cpp
+	<iostream>
 	"CRandomCostUnit.h"
 
-1356521947 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\crandomcostunit.h
+1356536525 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\crandomcostunit.h
 	<string>
 	"CSingleFineUnit.h"
 
 1356522042 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cworldmap.cpp
 	"CWorldMap.h"
 
-1356530413 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cworldmap.h
+1356532241 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cworldmap.h
 	<iostream>
 	<string>
 	<vector>
@@ -68,7 +79,7 @@
 1356243310 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cplayer.cpp
 	"CPlayer.h"
 
-1356530295 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cplayer.h
+1356538600 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cplayer.h
 	<string>
 	<vector>
 
@@ -81,10 +92,12 @@
 	<vector>
 	"CPlayer.h"
 
-1356530031 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cgame.cpp
+1356537607 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cgame.cpp
+	<iostream>
+	<cstdlib>
 	"CGame.h"
 
-1356529551 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cgame.h
+1356538407 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cgame.h
 	"CWorldMap.h"
 	"CWorldPlayer.h"
 

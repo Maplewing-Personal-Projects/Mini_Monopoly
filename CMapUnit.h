@@ -11,6 +11,7 @@ class CMapUnit{
 
     virtual CMapUnit* clone() = 0;
     virtual void action() = 0;
+    virtual void printInformation() const;
   protected:
     int id_;
     std::string name_;

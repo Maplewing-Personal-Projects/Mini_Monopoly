@@ -9,8 +9,9 @@ class CPriceUnit : public CMapUnit{
       :CMapUnit(id, name), price_(price), owner_id_(owner_id){
     }
     virtual ~CPriceUnit(){}
+    virtual void printInformation() const;
 
-  static const int NO_OWNER = -1;
+    static const int NO_OWNER = -1;
   protected:
     int owner_id_;
     int price_;

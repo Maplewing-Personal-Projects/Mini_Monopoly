@@ -6,18 +6,20 @@
 class CUpgradableUnit : public CPriceUnit{
   public:
     CUpgradableUnit(int id, std::string name, int price, int upgrade_price, int fine[], int owner_id = NO_OWNER)
-      :CPriceUnit(id, name, price, owner_id), upgrade_price_(upgrade_price){
+      :CPriceUnit(id, name, price, owner_id), upgrade_price_(upgrade_price), level_(0){
       for( int i = 0 ; i < MAXLEVEL ; i++ )
         fine_[i] = fine[i];
     }
 
     virtual CMapUnit* clone(){ return new CUpgradableUnit(*this); }
     virtual void action(){}
+    virtual void printInformation() const;
 
     static const int MAXLEVEL = 5;
   private:
     int upgrade_price_;
     int fine_[MAXLEVEL];
+    int level_;
 };
 
 #endif // KNIGHT_CUPGRADABLEUNIT_H

@@ -10,6 +10,7 @@ class CPlayer{
     }
 
     int getLocation() const { return location_; }
+    void printInformation() const;
 
     static const int INIT_MONEY = 5000;
   private:

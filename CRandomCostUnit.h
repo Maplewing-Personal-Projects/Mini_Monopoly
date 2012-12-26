@@ -11,6 +11,7 @@ class CRandomCostUnit : public CSingleFineUnit{
 
     virtual CMapUnit* clone(){ return new CRandomCostUnit(*this); }
     virtual void action(){}
+    virtual void printInformation() const;
 };
 
 #endif // KNIGHT_CRANDOMCOSTUNIT_H

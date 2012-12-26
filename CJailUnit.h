@@ -11,6 +11,7 @@ class CJailUnit : public CMapUnit{
 
     virtual CMapUnit* clone(){ return new CJailUnit(*this); }
     virtual void action(){}
+    virtual void printInformation() const;
 };
 
 #endif // KNIGHT_CJAILUNIT_H

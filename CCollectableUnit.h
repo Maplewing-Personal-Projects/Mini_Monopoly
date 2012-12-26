@@ -11,6 +11,7 @@ class CCollectableUnit : public CSingleFineUnit{
 
     virtual CMapUnit* clone(){ return new CCollectableUnit(*this); }
     virtual void action(){}
+    virtual void printInformation() const;
 };
 
 #endif // KNIGHT_CCOLLECTABLEUNIT_H

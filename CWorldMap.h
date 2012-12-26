@@ -15,6 +15,8 @@ class CWorldMap
     CWorldMap(const CWorldMap& map);
     ~CWorldMap();
 
+    const CMapUnit& operator[]( int index ) const{ return *(map_units_[index]); }
+    CMapUnit& operator[]( int index ){ return const_cast<CMapUnit&>(static_cast<const CWorldMap&>(*this)[index]); }
     CWorldMap& operator= (const CWorldMap& map);
 
     void swap(CWorldMap& map);
