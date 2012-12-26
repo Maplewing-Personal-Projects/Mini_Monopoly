@@ -5,8 +5,12 @@
 
 class CWorldPlayer{
   public:
-    CWorldPlayer(int player_num, CPlayer players[]);
+    void add(const CPlayer& player){ players_.push_back(player); }
+    int totalPlayerNum(){ return players_.size(); }
 
+    void promptInitialize();
+    static const int MAX_PLAYER_NUM = 4;
+    static const std::string DEFAULT_NAME[MAX_PLAYER_NUM];
   private:
     std::vector<CPlayer> players_;
 };

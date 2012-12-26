@@ -4,7 +4,7 @@
 
 class CMapUnit{
   public:
-    CMapUnit( int id, std::string name )
+    CMapUnit(int id, std::string name)
       :id_(id), name_(name){
     }
     virtual ~CMapUnit(){}
