@@ -14,6 +14,7 @@ class CGame{
     void printInformation() const;
     void printMapInformation(int map_unit_id) const;
     void printPlayerInformation(int player_id) const;
+    void controlGo();
 
   private:
     CWorldMap world_map_;

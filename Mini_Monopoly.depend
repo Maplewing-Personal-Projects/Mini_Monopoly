@@ -1,9 +1,9 @@
 # depslib dependency file v1.0
-1356536683 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\main.cpp
-	<iostream>
-	<iomanip>
+1356540440 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\main.cpp
 	<fstream>
 	<string>
+	<cstdlib>
+	<ctime>
 	"CGame.h"
 
 1356537669 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cmapunit.cpp
@@ -76,10 +76,12 @@
 	"CRandomCostUnit.h"
 	"CJailUnit.h"
 
-1356243310 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cplayer.cpp
+1356539063 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cplayer.cpp
+	<iostream>
+	<iomanip>
 	"CPlayer.h"
 
-1356538600 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cplayer.h
+1356540799 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cplayer.h
 	<string>
 	<vector>
 
@@ -92,12 +94,13 @@
 	<vector>
 	"CPlayer.h"
 
-1356537607 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cgame.cpp
+1356540877 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cgame.cpp
 	<iostream>
+	<string>
 	<cstdlib>
 	"CGame.h"
 
-1356538407 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cgame.h
+1356540433 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cgame.h
 	"CWorldMap.h"
 	"CWorldPlayer.h"
 

@@ -9,7 +9,12 @@ class CPlayer{
       :id_(id), name_(name), money_(money), location_(0){
     }
 
+    void setLocation(int location) { location_ = location; }
     int getLocation() const { return location_; }
+    int getOwnUnitNum() const { return own_units_id_.size(); }
+    std::string getName() const { return name_; }
+    int getMoney() const { return money_; }
+    void addMoney(int money) { money_ += money; }
     void printInformation() const;
 
     static const int INIT_MONEY = 5000;

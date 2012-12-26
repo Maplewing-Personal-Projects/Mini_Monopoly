@@ -1,7 +1,7 @@
-#include <iostream>
-#include <iomanip>
 #include <fstream>
 #include <string>
+#include <cstdlib>
+#include <ctime>
 #include "CGame.h"
 using namespace std;
 
@@ -14,6 +14,7 @@ int main(){
   world_player.promptInitialize();
 
   CGame game( world_map,  world_player);
+  srand(time(NULL));
   game.run();
 
   return 0;
