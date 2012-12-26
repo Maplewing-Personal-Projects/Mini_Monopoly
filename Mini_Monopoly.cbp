@@ -31,6 +31,28 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="CCollectableUnit.cpp" />
+		<Unit filename="CCollectableUnit.h" />
+		<Unit filename="CJailUnit.cpp" />
+		<Unit filename="CJailUnit.h" />
+		<Unit filename="CMapUnit.cpp" />
+		<Unit filename="CMapUnit.h" />
+		<Unit filename="CPlayer.cpp" />
+		<Unit filename="CPlayer.h" />
+		<Unit filename="CPriceUnit.cpp" />
+		<Unit filename="CPriceUnit.h" />
+		<Unit filename="CRandomCostUnit.cpp" />
+		<Unit filename="CRandomCostUnit.h" />
+		<Unit filename="CSingleFineUnit.cpp" />
+		<Unit filename="CSingleFineUnit.h" />
+		<Unit filename="CUpgradableUnit.cpp" />
+		<Unit filename="CUpgradableUnit.h" />
+		<Unit filename="CWorldMap.cpp" />
+		<Unit filename="CWorldMap.h" />
+		<Unit filename="CWorldPlayer.cpp" />
+		<Unit filename="CWorldPlayer.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="map.dat" />
 		<Extensions>
 			<code_completion />
 			<debugger />

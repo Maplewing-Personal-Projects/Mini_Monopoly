@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1356242914 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\main.cpp
+1356243976 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\main.cpp
 	<iostream>
 	<fstream>
 	"CWorldMap.h"
@@ -69,4 +69,11 @@
 
 1356243388 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cplayer.h
 	<string>
+
+1356243581 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cworldplayer.cpp
+	"CWorldPlayer.h"
+
+1356244187 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cworldplayer.h
+	<vector>
+	"CPlayer.h"
 
