@@ -66,13 +66,13 @@ Game Functions
 
 Format of Map File
 ------------------
-  U USA 4000 400 400 800 1200 1600 2000
-  U Norway 3000 300 300 600 1000 1200 1500
-  U Denmark 4000 400 400 800 1200 1600 2000
-  C Italy 2000 100 U Poland 8000 800 800 2000 3500 4000 4500
-  C China 1000 100
-  R Taiwan 2000 500
-  J Jail
+    U USA 4000 400 400 800 1200 1600 2000
+    U Norway 3000 300 300 600 1000 1200 1500
+    U Denmark 4000 400 400 800 1200 1600 2000
+    C Italy 2000 100 U Poland 8000 800 800 2000 3500 4000 4500
+    C China 1000 100
+    R Taiwan 2000 500
+    J Jail
 
 For U, C, and R units, the first integer after the name of the unit is the cost to buy the unit.
 
