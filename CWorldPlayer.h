@@ -5,11 +5,10 @@
 
 class CWorldPlayer{
   public:
-    void add(const CPlayer& player);
+    CWorldPlayer(int player_num, CPlayer players[]);
 
-    static const int MAXPLAYERS = 4;
   private:
-    std::vector<CPlayer> players;
+    std::vector<CPlayer> players_;
 };
 
 #endif // KNIGHT_CWORLDPLAYER_H

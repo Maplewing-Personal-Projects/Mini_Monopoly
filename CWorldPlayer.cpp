@@ -1,5 +1,7 @@
 #include "CWorldPlayer.h"
 
-void CWorldPlayer::add(const CPlayer& player){
-  players.push_back(player);
+CWorldPlayer::CWorldPlayer(int player_num, CPlayer players[]){
+  for( int i = 0 ; i < player_num ; i++ ){
+    players_.push_back(players[i]);
+  }
 }

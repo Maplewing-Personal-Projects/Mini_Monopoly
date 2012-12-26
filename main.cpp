@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
   ifstream fin("map.dat");
-  CWorldMap cwm(fin);
+  CWorldMap cwm = fin;
 
   return 0;
 }

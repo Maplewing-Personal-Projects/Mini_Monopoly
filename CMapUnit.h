@@ -4,8 +4,6 @@
 
 class CMapUnit{
   public:
-    enum UnitType{ UPGRADABLE, COLLECTABLE, RANDOMCOST, JAIL };
-
     CMapUnit( int id, std::string name )
       :id_(id), name_(name){
     }
