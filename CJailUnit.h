@@ -2,6 +2,7 @@
 #define KNIGHT_CJAILUNIT_H
 #include <string>
 #include "CMapUnit.h"
+#include "CPlayer.h"
 
 class CJailUnit : public CMapUnit{
   public:
@@ -9,8 +10,10 @@ class CJailUnit : public CMapUnit{
       :CMapUnit(id, name){
     }
 
+    static const int STAY_ROUND = 2;
+
     virtual CMapUnit* clone(){ return new CJailUnit(*this); }
-    virtual void action(){}
+    virtual void action(CPlayer& player);
     virtual void printInformation() const;
 };
 

@@ -1,6 +1,7 @@
 #ifndef KNIGHT_CMAPUNIT_H
 #define KNIGHT_CMAPUNIT_H
 #include <string>
+#include "CPlayer.h"
 
 class CMapUnit{
   public:
@@ -10,7 +11,7 @@ class CMapUnit{
     virtual ~CMapUnit(){}
 
     virtual CMapUnit* clone() = 0;
-    virtual void action() = 0;
+    virtual void action(CPlayer& player) = 0;
     virtual void printInformation() const;
   protected:
     int id_;

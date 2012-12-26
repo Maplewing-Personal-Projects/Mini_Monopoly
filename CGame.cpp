@@ -12,10 +12,29 @@ void CGame::run(){
     system("cls");
     printInformation();
     cout << endl;
-    controlGo();
-    if( is_exit_ ) break;
 
-    system("pause");
+    if( world_player_[current_player_id_].getJailRoundCount() > 0 ){
+      cout << world_player_[current_player_id_].getName();
+      cout << ", you have to stay ";
+      cout << world_player_[current_player_id_].getJailRoundCount();
+      cout << " round.\n";
+      world_player_[current_player_id_]
+        .setJailRoundCount(world_player_[current_player_id_]
+                            .getJailRoundCount()-1);
+      system("pause");
+    }
+    else{
+      controlGo();
+      if( is_exit_ ) break;
+
+      system("cls");
+      printInformation();
+      cout << endl;
+      controlMapAction();
+      system("pause");
+    }
+    ++current_player_id_;
+    current_player_id_ %= world_player_.totalPlayerNum();
   }
 
 }
@@ -32,11 +51,17 @@ void CGame::controlGo(){
     return;
   }
 
-  int new_location = world_player_[current_player_id_].getLocation()+(rand()%6+1);
+  int new_location = world_player_[current_player_id_].getLocation()+CGame::dice();
   if( new_location > world_map_.totalMapUnitNum() ){
-    world_player_[current_player_id_].addMoney(2000);
+    world_player_[current_player_id_]
+      .setMoney(world_player_[current_player_id_].getMoney()+2000);
   }
   world_player_[current_player_id_].setLocation(new_location % world_map_.totalMapUnitNum());
+}
+
+void CGame::controlMapAction(){
+  world_map_[world_player_[current_player_id_].getLocation()]
+    .action(world_player_[current_player_id_]);
 }
 
 void CGame::printInformation() const{

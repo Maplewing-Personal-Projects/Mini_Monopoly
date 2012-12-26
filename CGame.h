@@ -9,12 +9,14 @@ class CGame{
       :world_map_(world_map), world_player_(world_player),
        is_exit_(false), is_end_(false), current_player_id_(0){
     }
+    static int dice(){ return rand()%6+1; }
     void run();
     void update();
     void printInformation() const;
     void printMapInformation(int map_unit_id) const;
     void printPlayerInformation(int player_id) const;
     void controlGo();
+    void controlMapAction();
 
   private:
     CWorldMap world_map_;

@@ -12,7 +12,7 @@ class CUpgradableUnit : public CPriceUnit{
     }
 
     virtual CMapUnit* clone(){ return new CUpgradableUnit(*this); }
-    virtual void action(){}
+    virtual void action(CPlayer& player){}
     virtual void printInformation() const;
 
     static const int MAXLEVEL = 5;

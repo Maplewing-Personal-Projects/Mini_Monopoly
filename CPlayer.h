@@ -6,7 +6,8 @@
 class CPlayer{
   public:
     CPlayer(int id, std::string name, int money = INIT_MONEY)
-      :id_(id), name_(name), money_(money), location_(0){
+      :id_(id), name_(name), money_(money), location_(0),
+      jail_round_count_(0){
     }
 
     void setLocation(int location) { location_ = location; }
@@ -14,7 +15,10 @@ class CPlayer{
     int getOwnUnitNum() const { return own_units_id_.size(); }
     std::string getName() const { return name_; }
     int getMoney() const { return money_; }
-    void addMoney(int money) { money_ += money; }
+    void setMoney(int money) { money_ = money; }
+    int getJailRoundCount() { return jail_round_count_; }
+    void setJailRoundCount(int jail_round_count) { jail_round_count_ = jail_round_count; }
+
     void printInformation() const;
 
     static const int INIT_MONEY = 5000;
@@ -24,6 +28,7 @@ class CPlayer{
     int money_;
     int location_;
     std::vector<int> own_units_id_;
+    int jail_round_count_;
 };
 
 #endif // KNIGHT_CPLAYER_H

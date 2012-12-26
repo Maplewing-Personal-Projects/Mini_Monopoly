@@ -10,7 +10,7 @@ class CCollectableUnit : public CSingleFineUnit{
     }
 
     virtual CMapUnit* clone(){ return new CCollectableUnit(*this); }
-    virtual void action(){}
+    virtual void action(CPlayer& player){}
     virtual void printInformation() const;
 };
 
