@@ -37,22 +37,8 @@ CWorldMap::CWorldMap(istream& in)
 }
 
 CWorldMap::CWorldMap(const CWorldMap& map){
-  for(int i = 0 ; i < map.map_units_.size() ; i++){
-    switch(map.map_units_[i]->type()){
-      case CMapUnit::UPGRADABLE:
-        map_units_.push_back(new CUpgradableUnit(*static_cast<CUpgradableUnit*>(map.map_units_[i])));
-        break;
-      case CMapUnit::COLLECTABLE:
-        map_units_.push_back(new CCollectableUnit(*static_cast<CCollectableUnit*>(map.map_units_[i])));
-        break;
-      case CMapUnit::RANDOMCOST:
-        map_units_.push_back(new CRandomCostUnit(*static_cast<CRandomCostUnit*>(map.map_units_[i])));
-        break;
-      case CMapUnit::JAIL:
-        map_units_.push_back(new CJailUnit(*static_cast<CJailUnit*>(map.map_units_[i])));
-        break;
-    }
-  }
+  for(int i = 0 ; i < map.map_units_.size() ; i++)
+    map_units_.push_back(map.map_units_[i]->clone());
 }
 
 CWorldMap& CWorldMap::operator= (const CWorldMap& map){

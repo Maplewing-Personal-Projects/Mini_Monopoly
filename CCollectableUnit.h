@@ -9,7 +9,7 @@ class CCollectableUnit : public CSingleFineUnit{
       :CSingleFineUnit(id, name, price, owner_id){
     }
 
-    virtual UnitType type(){ return COLLECTABLE; }
+    virtual CMapUnit* clone(){ return new CCollectableUnit(*this); }
     virtual void action(){}
 };
 

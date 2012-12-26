@@ -11,7 +11,7 @@ class CMapUnit{
     }
     virtual ~CMapUnit(){}
 
-    virtual UnitType type() = 0;
+    virtual CMapUnit* clone() = 0;
     virtual void action() = 0;
   protected:
     int id_;

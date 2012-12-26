@@ -11,7 +11,7 @@ class CUpgradableUnit : public CPriceUnit{
         fine_[i] = fine[i];
     }
 
-    virtual UnitType type(){ return UPGRADABLE; }
+    virtual CMapUnit* clone(){ return new CUpgradableUnit(*this); }
     virtual void action(){}
 
     static const int MAXLEVEL = 5;

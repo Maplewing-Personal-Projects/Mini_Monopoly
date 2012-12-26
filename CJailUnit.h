@@ -9,7 +9,7 @@ class CJailUnit : public CMapUnit{
       :CMapUnit(id, name){
     }
 
-    virtual UnitType type(){ return JAIL; }
+    virtual CMapUnit* clone(){ return new CJailUnit(*this); }
     virtual void action(){}
 };
 
