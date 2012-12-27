@@ -5,8 +5,8 @@
 
 class CCollectableUnit : public CSingleFineUnit{
   public:
-    CCollectableUnit(int id, std::string name, int price, int owner_id = NO_OWNER)
-      :CSingleFineUnit(id, name, price, owner_id){
+    CCollectableUnit(int id, std::string name, int price, int fine, CPlayer* owner = NO_OWNER)
+      :CSingleFineUnit(id, name, price, fine, owner){
     }
 
     virtual CMapUnit* clone(){ return new CCollectableUnit(*this); }

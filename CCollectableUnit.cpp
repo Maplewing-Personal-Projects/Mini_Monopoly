@@ -4,6 +4,6 @@ using std::cout;
 
 void CCollectableUnit::printInformation() const{
   CSingleFineUnit::printInformation();
-  if(owner_id_ != NO_OWNER) cout << "x1     ";
+  if(owner_ != NO_OWNER) cout << "x1     ";
   cout << "   ";
 }

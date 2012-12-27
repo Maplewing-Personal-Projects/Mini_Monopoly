@@ -5,8 +5,8 @@
 
 class CRandomCostUnit : public CSingleFineUnit{
   public:
-    CRandomCostUnit(int id, std::string name, int price, int fine, int owner_id = NO_OWNER )
-      :CSingleFineUnit(id, name, price, fine, owner_id){
+    CRandomCostUnit(int id, std::string name, int price, int fine, CPlayer* owner = NO_OWNER )
+      :CSingleFineUnit(id, name, price, fine, owner){
     }
 
     virtual CMapUnit* clone(){ return new CRandomCostUnit(*this); }

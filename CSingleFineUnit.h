@@ -5,8 +5,8 @@
 
 class CSingleFineUnit : public CPriceUnit{
   public:
-    CSingleFineUnit(int id, std::string name, int price, int fine, int owner_id = NO_OWNER)
-      :CPriceUnit(id, name, price, owner_id), fine_(fine){
+    CSingleFineUnit(int id, std::string name, int price, int fine, CPlayer* owner = NO_OWNER)
+      :CPriceUnit(id, name, price, owner), fine_(fine){
     }
     virtual ~CSingleFineUnit(){}
 

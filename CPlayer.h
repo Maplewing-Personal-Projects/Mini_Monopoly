@@ -10,6 +10,7 @@ class CPlayer{
       jail_round_count_(0){
     }
 
+    int getID() { return id_; }
     void setLocation(int location) { location_ = location; }
     int getLocation() const { return location_; }
     int getOwnUnitNum() const { return own_units_id_.size(); }

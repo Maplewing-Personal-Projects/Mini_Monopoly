@@ -1,7 +1,8 @@
 #ifndef KNIGHT_CMAPUNIT_H
 #define KNIGHT_CMAPUNIT_H
 #include <string>
-#include "CPlayer.h"
+
+class CPlayer;
 
 class CMapUnit{
   public:

@@ -54,7 +54,11 @@ void CGame::controlGo(){
   int new_location = world_player_[current_player_id_].getLocation()+CGame::dice();
   if( new_location > world_map_.totalMapUnitNum() ){
     world_player_[current_player_id_]
-      .setMoney(world_player_[current_player_id_].getMoney()+2000);
+      .setMoney(world_player_[current_player_id_].getMoney()+PASS_START_MONEY);
+
+    cout << world_player_[current_player_id_].getName();
+    cout << ", you pass the start point and get $" << PASS_START_MONEY << ".\n";
+    system("pause");
   }
   world_player_[current_player_id_].setLocation(new_location % world_map_.totalMapUnitNum());
 }

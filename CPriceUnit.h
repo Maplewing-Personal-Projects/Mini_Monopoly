@@ -5,16 +5,16 @@
 
 class CPriceUnit : public CMapUnit{
   public:
-    CPriceUnit(int id, std::string name, int price, int owner_id = NO_OWNER)
-      :CMapUnit(id, name), price_(price), owner_id_(owner_id){
+    CPriceUnit(int id, std::string name, int price, CPlayer* owner = NO_OWNER)
+      :CMapUnit(id, name), price_(price), owner_(owner){
     }
     virtual ~CPriceUnit(){}
     virtual void printInformation() const;
 
-    static const int NO_OWNER = -1;
+    static CPlayer* const NO_OWNER;
   protected:
-    int owner_id_;
     int price_;
+    CPlayer* owner_;
 };
 
 #endif // KNIGHT_CPRICEUNIT_H
