@@ -10,7 +10,7 @@ class CJailUnit : public CMapUnit{
       :CMapUnit(id, name){
     }
 
-    static const int STAY_ROUND = 2;
+    static const int STAY_ROUND = 1;
 
     virtual CMapUnit* clone(){ return new CJailUnit(*this); }
     virtual void action(CPlayer& player);

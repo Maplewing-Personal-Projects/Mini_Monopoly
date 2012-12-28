@@ -1,59 +1,59 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
 	<ActiveTarget name="Debug" />
-	<File name="CCollectableUnit.cpp" open="0" top="0" tabpos="0">
-		<Cursor position="178" topLine="0" />
+	<File name="CCollectableUnit.cpp" open="0" top="0" tabpos="11">
+		<Cursor position="173" topLine="0" />
 	</File>
-	<File name="CCollectableUnit.h" open="0" top="0" tabpos="12">
-		<Cursor position="429" topLine="0" />
+	<File name="CCollectableUnit.h" open="1" top="1" tabpos="7">
+		<Cursor position="324" topLine="0" />
 	</File>
-	<File name="CGame.cpp" open="1" top="0" tabpos="3">
-		<Cursor position="1358" topLine="80" />
+	<File name="CGame.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="2206" topLine="53" />
 	</File>
-	<File name="CGame.h" open="1" top="0" tabpos="2">
-		<Cursor position="372" topLine="4" />
+	<File name="CGame.h" open="0" top="0" tabpos="7">
+		<Cursor position="353" topLine="0" />
 	</File>
 	<File name="CJailUnit.cpp" open="0" top="0" tabpos="15">
 		<Cursor position="229" topLine="0" />
 	</File>
-	<File name="CJailUnit.h" open="1" top="0" tabpos="7">
-		<Cursor position="382" topLine="2" />
+	<File name="CJailUnit.h" open="1" top="0" tabpos="5">
+		<Cursor position="282" topLine="0" />
 	</File>
 	<File name="CMapUnit.cpp" open="0" top="0" tabpos="5">
 		<Cursor position="311" topLine="0" />
 	</File>
 	<File name="CMapUnit.h" open="0" top="0" tabpos="9">
-		<Cursor position="299" topLine="0" />
+		<Cursor position="89" topLine="0" />
 	</File>
-	<File name="CPlayer.cpp" open="1" top="0" tabpos="5">
+	<File name="CPlayer.cpp" open="1" top="0" tabpos="3">
 		<Cursor position="260" topLine="0" />
 	</File>
-	<File name="CPlayer.h" open="1" top="0" tabpos="6">
-		<Cursor position="748" topLine="6" />
+	<File name="CPlayer.h" open="1" top="0" tabpos="4">
+		<Cursor position="107" topLine="1" />
 	</File>
-	<File name="CPriceUnit.cpp" open="0" top="0" tabpos="0">
-		<Cursor position="145" topLine="0" />
+	<File name="CPriceUnit.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="352" topLine="0" />
 	</File>
-	<File name="CPriceUnit.h" open="0" top="0" tabpos="0">
-		<Cursor position="226" topLine="0" />
+	<File name="CPriceUnit.h" open="0" top="0" tabpos="10">
+		<Cursor position="202" topLine="0" />
 	</File>
-	<File name="CRandomCostUnit.cpp" open="0" top="0" tabpos="0">
-		<Cursor position="148" topLine="0" />
+	<File name="CRandomCostUnit.cpp" open="1" top="0" tabpos="9">
+		<Cursor position="171" topLine="0" />
 	</File>
-	<File name="CRandomCostUnit.h" open="1" top="1" tabpos="8">
-		<Cursor position="441" topLine="0" />
+	<File name="CRandomCostUnit.h" open="0" top="0" tabpos="6">
+		<Cursor position="326" topLine="0" />
 	</File>
 	<File name="CSingleFineUnit.cpp" open="0" top="0" tabpos="0">
 		<Cursor position="30" topLine="0" />
 	</File>
-	<File name="CSingleFineUnit.h" open="1" top="0" tabpos="4">
-		<Cursor position="0" topLine="0" />
+	<File name="CSingleFineUnit.h" open="1" top="0" tabpos="8">
+		<Cursor position="244" topLine="0" />
 	</File>
-	<File name="CUpgradableUnit.cpp" open="0" top="0" tabpos="0">
-		<Cursor position="235" topLine="0" />
+	<File name="CUpgradableUnit.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="309" topLine="0" />
 	</File>
-	<File name="CUpgradableUnit.h" open="0" top="0" tabpos="14">
-		<Cursor position="556" topLine="4" />
+	<File name="CUpgradableUnit.h" open="1" top="0" tabpos="6">
+		<Cursor position="325" topLine="0" />
 	</File>
 	<File name="CWorldMap.cpp" open="0" top="0" tabpos="5">
 		<Cursor position="1387" topLine="32" />
@@ -64,7 +64,7 @@
 	<File name="CWorldPlayer.cpp" open="0" top="0" tabpos="8">
 		<Cursor position="236" topLine="0" />
 	</File>
-	<File name="CWorldPlayer.h" open="0" top="0" tabpos="4">
+	<File name="CWorldPlayer.h" open="1" top="0" tabpos="10">
 		<Cursor position="461" topLine="0" />
 	</File>
 	<File name="main.cpp" open="1" top="0" tabpos="1">

@@ -13,6 +13,9 @@ class CPriceUnit : public CMapUnit{
 
     static CPlayer* const NO_OWNER;
   protected:
+    bool buyThisUnit(CPlayer& player);
+    void costMoney(CPlayer& player, int money);
+
     int price_;
     CPlayer* owner_;
 };

@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1356540440 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\main.cpp
+1356713623 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\main.cpp
 	<fstream>
 	<string>
 	<cstdlib>
@@ -15,13 +15,14 @@
 1356569502 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cmapunit.h
 	<string>
 
-1356570469 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cpriceunit.cpp
+1356716607 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cpriceunit.cpp
 	<iostream>
 	<iomanip>
+	<string>
 	"CPriceUnit.h"
 	"CPlayer.h"
 
-1356570321 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cpriceunit.h
+1356716231 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cpriceunit.h
 	"CMapUnit.h"
 	<string>
 
@@ -34,10 +35,13 @@
 	<string>
 	"CPriceUnit.h"
 
-1356237812 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\csinglefineunit.cpp
+1356715275 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\csinglefineunit.cpp
+	<iostream>
+	"CPlayer.h"
 	"CSingleFineUnit.h"
 
-1356569444 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\csinglefineunit.h
+1356716426 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\csinglefineunit.h
+	<iostream>
 	<string>
 	"CPriceUnit.h"
 
@@ -46,24 +50,31 @@
 	"CJailUnit.h"
 	"CPlayer.h"
 
-1356542363 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cjailunit.h
+1356621806 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cjailunit.h
 	<string>
 	"CMapUnit.h"
 	"CPlayer.h"
 
-1356569513 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\ccollectableunit.cpp
+1356716666 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\ccollectableunit.cpp
 	<iostream>
+	<iomanip>
+	<vector>
+	"CGame.h"
 	"CCollectableUnit.h"
 
-1356570405 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\ccollectableunit.h
+1356716590 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\ccollectableunit.h
 	<string>
+	<vector>
 	"CSingleFineUnit.h"
 
-1356570475 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\crandomcostunit.cpp
+1356716661 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\crandomcostunit.cpp
 	<iostream>
+	<string>
+	"CGame.h"
 	"CRandomCostUnit.h"
+	"CPlayer.h"
 
-1356569622 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\crandomcostunit.h
+1356715653 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\crandomcostunit.h
 	<string>
 	"CSingleFineUnit.h"
 
@@ -84,26 +95,25 @@
 	<iomanip>
 	"CPlayer.h"
 
-1356570452 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cplayer.h
+1356621837 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cplayer.h
 	<string>
 	<vector>
 
-1356529881 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cworldplayer.cpp
-	<iostream>
-	<string>
+1356713570 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cworldplayer.cpp
 	"CWorldPlayer.h"
 
-1356530113 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cworldplayer.h
+1356713558 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cworldplayer.h
 	<vector>
 	"CPlayer.h"
 
-1356542604 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cgame.cpp
+1356713420 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cgame.cpp
 	<iostream>
 	<string>
 	<cstdlib>
 	"CGame.h"
 
-1356570599 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cgame.h
+1356714536 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cgame.h
+	<cstdlib>
 	"CWorldMap.h"
 	"CWorldPlayer.h"
 

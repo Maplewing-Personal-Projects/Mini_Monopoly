@@ -1,5 +1,6 @@
 #ifndef KNIGHT_CGAME_H
 #define KNIGHT_CGAME_H
+#include <cstdlib>
 #include "CWorldMap.h"
 #include "CWorldPlayer.h"
 
@@ -11,7 +12,11 @@ class CGame{
     }
 
     static const int PASS_START_MONEY = 2000;
+    static const int MAX_PLAYER_NUM = 4;
+    static const std::string DEFAULT_NAME[MAX_PLAYER_NUM];
+
     static int dice(){ return rand()%6+1; }
+
     void run();
     void update();
     void printInformation() const;

@@ -1,5 +1,6 @@
 #ifndef KNIGHT_CSINGLEFINEUNIT_H
 #define KNIGHT_CSINGLEFINEUNIT_H
+#include <iostream>
 #include <string>
 #include "CPriceUnit.h"
 
@@ -11,6 +12,9 @@ class CSingleFineUnit : public CPriceUnit{
     virtual ~CSingleFineUnit(){}
 
   protected:
+    void ignoreOwnerArrive(const CPlayer& player) const;
+    void printCostMoney(const CPlayer& player, int multiple) const;
+
     int fine_;
 };
 

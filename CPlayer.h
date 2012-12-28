@@ -3,6 +3,8 @@
 #include <string>
 #include <vector>
 
+class CMapUnit;
+
 class CPlayer{
   public:
     CPlayer(int id, std::string name, int money = INIT_MONEY)
@@ -13,7 +15,7 @@ class CPlayer{
     int getID() { return id_; }
     void setLocation(int location) { location_ = location; }
     int getLocation() const { return location_; }
-    int getOwnUnitNum() const { return own_units_id_.size(); }
+    int getOwnUnitNum() const { return own_units_.size(); }
     std::string getName() const { return name_; }
     int getMoney() const { return money_; }
     void setMoney(int money) { money_ = money; }
@@ -28,7 +30,7 @@ class CPlayer{
     std::string name_;
     int money_;
     int location_;
-    std::vector<int> own_units_id_;
+    std::vector<CMapUnit*> own_units_;
     int jail_round_count_;
 };
 

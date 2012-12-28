@@ -7,6 +7,8 @@ using std::cout;
 using std::endl;
 using std::string;
 
+const string CGame::DEFAULT_NAME[CGame::MAX_PLAYER_NUM] = { "Sonic", "Tails", "Knuckles", "Amy" };
+
 void CGame::run(){
   while(!is_end_ && !is_exit_){
     system("cls");
