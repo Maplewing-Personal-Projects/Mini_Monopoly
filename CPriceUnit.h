@@ -14,7 +14,7 @@ class CPriceUnit : public CMapUnit{
 
     static CPlayer* const NO_OWNER;
   protected:
-    bool buyThisUnit(CPlayer& player);
+    bool payForThisUnit(CPlayer& player, std::string action, int price);
     void costMoney(CPlayer& player, int money);
 
     int price_;

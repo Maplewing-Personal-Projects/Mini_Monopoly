@@ -24,21 +24,23 @@ void CPriceUnit::printInformation() const{
   }
 }
 
-bool CPriceUnit::buyThisUnit(CPlayer &player){
+bool CPriceUnit::payForThisUnit(CPlayer &player, string action, int price){
   string command;
-  cout << player.getName() << ", do you want to buy ";
+  cout << player.getName() << ", do you want to " << action << " ";
   cout << name_ << "? (1: Yes [default] / 2: No) ...>";
   getline( cin, command );
 
   if(command[0] == '2') return false;
-  if(price_ > player.getMoney()){
-    cout << "You don't have enough money to buy it.\n";
+  if(price > player.getMoney()){
+    cout << "You don't have enough money to " << action << " it.\n";
     return false;
   }
-  cout << "You pay $" << price_ << " to buy " << name_ << '.' << endl;
-  player.setMoney(player.getMoney()-price_);
-  owner_ = &player;
-  player.addUnit(this);
+  cout << "You pay $" << price << " to " << action << " " << name_ << '.' << endl;
+  player.setMoney(player.getMoney()-price);
+  if( action == "buy" ){
+    owner_ = &player;
+    player.addUnit(this);
+  }
   return true;
 }
 

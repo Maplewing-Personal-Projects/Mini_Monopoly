@@ -19,7 +19,7 @@ void CCollectableUnit::printInformation() const{
 
 void CCollectableUnit::action(CPlayer& player){
   if(owner_ == NO_OWNER){
-    if( buyThisUnit(player) ) ++player_own_unit_num[player.getID()];
+    if( payForThisUnit(player, "buy", price_) ) ++player_own_unit_num[player.getID()];
   }
   else if( owner_->getID() == player.getID() ){
     ignoreOwnerArrive(player);

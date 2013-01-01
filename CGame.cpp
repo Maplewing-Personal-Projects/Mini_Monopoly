@@ -39,6 +39,8 @@ void CGame::run(){
       if(world_player_[current_player_id_].isBankrupt()){
         world_player_[current_player_id_].clearUnits();
         ++bankrupt_player_count;
+        cout << world_player_[current_player_id_].getName() << " is bankrupted!!" << endl;
+        system("pause");
       }
     }
     ++current_player_id_;
@@ -114,7 +116,8 @@ void CGame::printInformation() const{
 void CGame::printMapInformation(int map_unit_id) const{
   cout << '=';
   for(int i = 0 ; i < world_player_.totalPlayerNum() ; i++){
-    if(world_player_[i].getLocation() == map_unit_id){
+    if(world_player_[i].isBankrupt()) continue;
+    if(world_player_[i].getLocation() == map_unit_id ){
       cout << i;
     }
     else cout << " ";

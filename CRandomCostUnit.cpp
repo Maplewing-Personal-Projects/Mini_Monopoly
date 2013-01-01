@@ -14,7 +14,7 @@ void CRandomCostUnit::printInformation() const{
 
 void CRandomCostUnit::action(CPlayer& player){
   if(owner_ == NO_OWNER){
-    buyThisUnit(player);
+    payForThisUnit(player, "buy", price_);
   }
   else if( owner_->getID() == player.getID() ){
     ignoreOwnerArrive(player);
