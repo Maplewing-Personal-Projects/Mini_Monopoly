@@ -32,12 +32,13 @@ bool CPriceUnit::buyThisUnit(CPlayer &player){
 
   if(command[0] == '2') return false;
   if(price_ > player.getMoney()){
-    cout << "You don't have enough money to buy it.";
+    cout << "You don't have enough money to buy it.\n";
     return false;
   }
   cout << "You pay $" << price_ << " to buy " << name_ << '.' << endl;
   player.setMoney(player.getMoney()-price_);
   owner_ = &player;
+  player.addUnit(this);
   return true;
 }
 

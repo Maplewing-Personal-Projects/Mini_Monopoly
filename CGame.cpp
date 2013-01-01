@@ -15,30 +15,50 @@ void CGame::run(){
     printInformation();
     cout << endl;
 
-    if( world_player_[current_player_id_].getJailRoundCount() > 0 ){
-      cout << world_player_[current_player_id_].getName();
-      cout << ", you have to stay ";
-      cout << world_player_[current_player_id_].getJailRoundCount();
-      cout << " round.\n";
-      world_player_[current_player_id_]
-        .setJailRoundCount(world_player_[current_player_id_]
-                            .getJailRoundCount()-1);
-      system("pause");
-    }
-    else{
-      controlGo();
-      if( is_exit_ ) break;
+    if( !world_player_[current_player_id_].isBankrupt() ){
+      if( world_player_[current_player_id_].getJailRoundCount() > 0 ){
+        cout << world_player_[current_player_id_].getName();
+        cout << ", you have to stay ";
+        cout << world_player_[current_player_id_].getJailRoundCount();
+        cout << " round.\n";
+        world_player_[current_player_id_]
+          .setJailRoundCount(world_player_[current_player_id_]
+                              .getJailRoundCount()-1);
+        system("pause");
+      }
+      else{
+        controlGo();
+        if( is_exit_ ) break;
 
-      system("cls");
-      printInformation();
-      cout << endl;
-      controlMapAction();
-      system("pause");
+        system("cls");
+        printInformation();
+        cout << endl;
+        controlMapAction();
+        system("pause");
+      }
+      if(world_player_[current_player_id_].isBankrupt()){
+        world_player_[current_player_id_].clearUnits();
+        ++bankrupt_player_count;
+      }
     }
     ++current_player_id_;
     current_player_id_ %= world_player_.totalPlayerNum();
+    if( bankrupt_player_count == world_player_.totalPlayerNum()-1 ){
+      is_end_ = true;
+    }
   }
 
+  if( is_end_ ){
+    CPlayer *winner;
+    for( int i = 0 ; i < world_player_.totalPlayerNum() ; i++ ){
+      if( !world_player_[i].isBankrupt() ){
+        winner = &world_player_[i];
+        break;
+      }
+    }
+    cout << "The winner is " << winner->getName() << "!! Congratulation!!\n";
+    system("pause");
+  }
 }
 
 void CGame::controlGo(){
@@ -81,6 +101,8 @@ void CGame::printInformation() const{
   cout << endl;
 
   for(int i = 0 ; i < world_player_.totalPlayerNum() ; i++){
+    if( world_player_[i].isBankrupt() ) continue;
+
     if( current_player_id_ == i ) cout << "=>";
     else cout << "  ";
 

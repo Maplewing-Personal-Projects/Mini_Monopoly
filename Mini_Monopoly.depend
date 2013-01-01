@@ -15,25 +15,25 @@
 1356569502 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cmapunit.h
 	<string>
 
-1357007952 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cpriceunit.cpp
+1357010476 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cpriceunit.cpp
 	<iostream>
 	<iomanip>
 	<string>
 	"CPriceUnit.h"
 	"CPlayer.h"
 
-1356716231 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cpriceunit.h
+1357009813 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cpriceunit.h
 	"CMapUnit.h"
 	<string>
 
-1357008084 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cupgradableunit.cpp
+1357010145 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cupgradableunit.cpp
 	<iostream>
 	<iomanip>
 	<string>
 	"CPlayer.h"
 	"CUpgradableUnit.h"
 
-1357007992 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cupgradableunit.h
+1357010012 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cupgradableunit.h
 	<string>
 	"CPriceUnit.h"
 
@@ -92,12 +92,13 @@
 	"CRandomCostUnit.h"
 	"CJailUnit.h"
 
-1356539063 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cplayer.cpp
+1357009443 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cplayer.cpp
 	<iostream>
 	<iomanip>
+	"CPriceUnit.h"
 	"CPlayer.h"
 
-1356621837 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cplayer.h
+1357009463 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cplayer.h
 	<string>
 	<vector>
 
@@ -108,13 +109,13 @@
 	<vector>
 	"CPlayer.h"
 
-1356713420 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cgame.cpp
+1357010465 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cgame.cpp
 	<iostream>
 	<string>
 	<cstdlib>
 	"CGame.h"
 
-1356714536 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cgame.h
+1357010189 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cgame.h
 	<cstdlib>
 	"CWorldMap.h"
 	"CWorldPlayer.h"

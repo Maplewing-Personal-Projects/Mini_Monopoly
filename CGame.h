@@ -7,11 +7,11 @@
 class CGame{
   public:
     CGame(const CWorldMap& world_map, const CWorldPlayer& world_player)
-      :world_map_(world_map), world_player_(world_player),
+      :world_map_(world_map), world_player_(world_player), bankrupt_player_count(0),
        is_exit_(false), is_end_(false), current_player_id_(0){
     }
 
-    static const int PASS_START_MONEY = 2000;
+    static const int PASS_START_MONEY = 500;
     static const int MAX_PLAYER_NUM = 4;
     static const std::string DEFAULT_NAME[MAX_PLAYER_NUM];
 
@@ -28,6 +28,7 @@ class CGame{
     CWorldMap world_map_;
     CWorldPlayer world_player_;
     int current_player_id_;
+    int bankrupt_player_count;
     bool is_exit_;
     bool is_end_;
 };

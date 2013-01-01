@@ -14,6 +14,7 @@ class CUpgradableUnit : public CPriceUnit{
     virtual CMapUnit* clone(){ return new CUpgradableUnit(*this); }
     virtual void action(CPlayer& player);
     virtual void printInformation() const;
+    virtual void clearOwner(){ level_ = 0; CPriceUnit::clearOwner(); }
 
     static const int MAX_LEVEL = 5;
   private:

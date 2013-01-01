@@ -20,10 +20,10 @@ void CUpgradableUnit::action(CPlayer& player){
     buyThisUnit(player);
   }
   else if( owner_->getID() == player.getID() ){
-    if( level_ < MAX_LEVEL ){
+    if( level_ < MAX_LEVEL-1 ){
       string command;
-      cout << player.getName() << ", do you want to pay";
-      cout << upgrade_price_ << "to upgrade your unit? (1: Yes [default] / 2: No) ...>";
+      cout << player.getName() << ", do you want to pay ";
+      cout << upgrade_price_ << " to upgrade your unit? (1: Yes [default] / 2: No) ...>";
       getline( cin, command );
 
       if(command[0] != '2'){

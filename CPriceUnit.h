@@ -10,6 +10,7 @@ class CPriceUnit : public CMapUnit{
     }
     virtual ~CPriceUnit(){}
     virtual void printInformation() const;
+    virtual void clearOwner() { owner_ = NO_OWNER; }
 
     static CPlayer* const NO_OWNER;
   protected:
