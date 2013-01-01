@@ -22,6 +22,7 @@ class CPlayer{
     int getJailRoundCount() { return jail_round_count_; }
     void setJailRoundCount(int jail_round_count) { jail_round_count_ = jail_round_count; }
 
+    bool isBankrupt(){ return (money_ <= 0); }
     void printInformation() const;
 
     static const int INIT_MONEY = 5000;

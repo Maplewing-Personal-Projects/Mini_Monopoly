@@ -9,6 +9,6 @@ void CJailUnit::printInformation() const{
 }
 
 void CJailUnit::action(CPlayer& player){
-  cout << player.getName() << ", you have to stay " << STAY_ROUND << " round.\n";
+  cout << player.getName() << ", you have to stay " << STAY_ROUND << " round from next round.\n";
   player.setJailRoundCount(player.getJailRoundCount()+STAY_ROUND);
 }

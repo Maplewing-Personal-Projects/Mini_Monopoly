@@ -36,6 +36,7 @@ bool CPriceUnit::buyThisUnit(CPlayer &player){
     return false;
   }
   cout << "You pay $" << price_ << " to buy " << name_ << '.' << endl;
+  player.setMoney(player.getMoney()-price_);
   owner_ = &player;
   return true;
 }

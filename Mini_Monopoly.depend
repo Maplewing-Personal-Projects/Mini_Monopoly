@@ -6,7 +6,7 @@
 	<ctime>
 	"CGame.h"
 
-1356537669 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cmapunit.cpp
+1357008313 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cmapunit.cpp
 	<iostream>
 	<iomanip>
 	<string>
@@ -15,7 +15,7 @@
 1356569502 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cmapunit.h
 	<string>
 
-1356716607 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cpriceunit.cpp
+1357007952 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cpriceunit.cpp
 	<iostream>
 	<iomanip>
 	<string>
@@ -26,16 +26,18 @@
 	"CMapUnit.h"
 	<string>
 
-1356570480 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cupgradableunit.cpp
+1357008084 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cupgradableunit.cpp
 	<iostream>
 	<iomanip>
+	<string>
+	"CPlayer.h"
 	"CUpgradableUnit.h"
 
-1356569654 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cupgradableunit.h
+1357007992 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cupgradableunit.h
 	<string>
 	"CPriceUnit.h"
 
-1356715275 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\csinglefineunit.cpp
+1356716679 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\csinglefineunit.cpp
 	<iostream>
 	"CPlayer.h"
 	"CSingleFineUnit.h"
@@ -45,7 +47,7 @@
 	<string>
 	"CPriceUnit.h"
 
-1356542370 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cjailunit.cpp
+1357008485 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cjailunit.cpp
 	<iostream>
 	"CJailUnit.h"
 	"CPlayer.h"
@@ -55,7 +57,7 @@
 	"CMapUnit.h"
 	"CPlayer.h"
 
-1356716666 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\ccollectableunit.cpp
+1357008416 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\ccollectableunit.cpp
 	<iostream>
 	<iomanip>
 	<vector>
@@ -78,7 +80,7 @@
 	<string>
 	"CSingleFineUnit.h"
 
-1356522042 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cworldmap.cpp
+1357008107 source:c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cworldmap.cpp
 	"CWorldMap.h"
 
 1356532241 c:\users\lanyiknight\documents\homework\advanced_programming\mini_monopoly\cworldmap.h
