@@ -28,7 +28,7 @@ class CPlayer{
     bool isBankrupt() const { return (money_ < 0); }
     void printInformation() const;
 
-    static const int INIT_MONEY = 5000;
+    static const int INIT_MONEY = 10000;
   private:
     int id_;
     std::string name_;
