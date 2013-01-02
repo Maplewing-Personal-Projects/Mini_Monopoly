@@ -25,7 +25,7 @@ class CPlayer{
 
     void addUnit(CPriceUnit* unit){ own_units_.push_back(unit); }
     void clearUnits();
-    bool isBankrupt() const { return (money_ <= 0); }
+    bool isBankrupt() const { return (money_ < 0); }
     void printInformation() const;
 
     static const int INIT_MONEY = 5000;

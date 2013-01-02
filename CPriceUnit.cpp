@@ -46,5 +46,5 @@ bool CPriceUnit::payForThisUnit(CPlayer &player, string action, int price){
 
 void CPriceUnit::costMoney(CPlayer& player, int money){
   owner_->setMoney(owner_->getMoney() + min(money, player.getMoney()));
-  player.setMoney(max(0, player.getMoney()-money));
+  player.setMoney(player.getMoney()-money);
 }

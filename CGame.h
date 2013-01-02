@@ -11,7 +11,7 @@ class CGame{
        is_exit_(false), is_end_(false), current_player_id_(0){
     }
 
-    static const int PASS_START_MONEY = 500;
+    static const int PASS_START_MONEY = 2000;
     static const int MAX_PLAYER_NUM = 4;
     static const std::string DEFAULT_NAME[MAX_PLAYER_NUM];
 
